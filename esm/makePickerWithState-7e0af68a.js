@@ -627,7 +627,6 @@ function makePickerWithState(_ref) {
         other = _objectWithoutProperties(props, ["allowKeyboardControl", "ampm", "animateYearScrolling", "autoOk", "dateRangeIcon", "dateTooltipProps", "disableFuture", "disablePast", "disableToolbar", "emptyLabel", "format", "forwardedRef", "hideTabs", "initialFocusedDate", "invalidDateMessage", "invalidLabel", "labelFunc", "leftArrowButtonProps", "leftTooltipProps", "leftArrowIcon", "loadingIndicator", "maxDate", "maxDateMessage", "minDate", "minDateMessage", "minutesStep", "onAccept", "onChange", "onClose", "onMonthChange", "onOpen", "onYearChange", "openTo", "orientation", "renderDay", "rightArrowButtonProps", "rightTooltipProps", "rightArrowIcon", "shouldDisableDate", "strictCompareDates", "timeIcon", "timeTooltipProps", "ToolbarComponent", "value", "variant", "views"]);
 
     var injectedProps = getCustomProps ? getCustomProps(props) : {};
-    console.debug('dateTooltipProps', dateTooltipProps);
     var options = useOptions(props);
 
     var _useState = useState(props, options),
@@ -677,4 +676,4 @@ function makePickerWithState(_ref) {
 }
 
 export { KeyboardDateInput as K, PickerToolbar as P, ToolbarButton$1 as T, PureDateInput as a, useKeyboardPickerState as b, ToolbarText as c, makePickerWithState as m, pick12hOr24hFormat as p, usePickerState as u, validate as v };
-//# sourceMappingURL=makePickerWithState-9b0a64ea.js.map
+//# sourceMappingURL=makePickerWithState-7e0af68a.js.map

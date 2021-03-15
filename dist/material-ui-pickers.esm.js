@@ -2740,7 +2740,6 @@ function makePickerWithState(_ref) {
         other = _objectWithoutProperties(props, ["allowKeyboardControl", "ampm", "animateYearScrolling", "autoOk", "dateRangeIcon", "dateTooltipProps", "disableFuture", "disablePast", "disableToolbar", "emptyLabel", "format", "forwardedRef", "hideTabs", "initialFocusedDate", "invalidDateMessage", "invalidLabel", "labelFunc", "leftArrowButtonProps", "leftTooltipProps", "leftArrowIcon", "loadingIndicator", "maxDate", "maxDateMessage", "minDate", "minDateMessage", "minutesStep", "onAccept", "onChange", "onClose", "onMonthChange", "onOpen", "onYearChange", "openTo", "orientation", "renderDay", "rightArrowButtonProps", "rightTooltipProps", "rightArrowIcon", "shouldDisableDate", "strictCompareDates", "timeIcon", "timeTooltipProps", "ToolbarComponent", "value", "variant", "views"]);
 
     var injectedProps = getCustomProps ? getCustomProps(props) : {};
-    console.debug('dateTooltipProps', dateTooltipProps);
     var options = useOptions(props);
 
     var _useState = useState(props, options),
